@@ -1,11 +1,24 @@
 {
   "name": "api-quttera",
   "version": "1.0.0",
+  "type": "module",
   "description": "This backend connects to the quttera endpoint to get data about malware detection for the url that the client provides",
   "main": "server.js",
   "scripts": {
+    "start": "tsx --watch --env-file=.env src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pratap K.",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5"
+  },
+  "engines": {
+    "node": "22.14"
+  }
 }
