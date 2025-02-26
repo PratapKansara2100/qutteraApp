@@ -1,0 +1,11 @@
+{
+  "name": "quttera-frontend",
+  "version": "1.0.0",
+  "description": "Client side application for malware detection from quttera engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratap K.",
+  "license": "ISC"
+}

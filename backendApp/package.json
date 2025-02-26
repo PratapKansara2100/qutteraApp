@@ -1,0 +1,11 @@
+{
+  "name": "api-quttera",
+  "version": "1.0.0",
+  "description": "This backend connects to the quttera endpoint to get data about malware detection for the url that the client provides",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratap K.",
+  "license": "ISC"
+}
