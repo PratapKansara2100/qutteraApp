@@ -1,0 +1,9 @@
+<div>
+  <h1>Enter Website Link</h1>
+  <form>
+    <label for="website">Website URL:</label>
+    <input type="text" id="website" [(ngModel)]="websiteLink" name="website" required />
+    <button (click)="fetchData()">Scan</button>
+    <button (click)="fetchData2()">Generate Report</button>
+  </form>
+</div>

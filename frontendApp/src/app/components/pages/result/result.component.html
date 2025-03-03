@@ -1,0 +1,9 @@
+<div>
+  <h1>Result for {{ website }}</h1>
+  <div *ngIf="serverData">
+    <pre>{{ serverData | json }}</pre>
+  </div>
+  <div *ngIf="!serverData">
+    <p>Loading data...</p>
+  </div>
+</div>
